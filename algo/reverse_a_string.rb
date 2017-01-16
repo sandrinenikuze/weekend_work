@@ -3,13 +3,15 @@
 # comes with Ruby!
 
 def reverse_a_string(string) 
-  reverse_array = []
-  reverse_array. each do |letter|
-    reverse_array.unshift(letter)
-  end
+  reverse_array = string.split ("")
+  letters = []
+  reverse_array.each do |letter|
+   letters.unshift(letter)
+  end 
+  puts letters.join
+
 end
 reverse = reverse_a_string("This is some input")
-
 
 
 # Driver code - don't touch anything below this line.
